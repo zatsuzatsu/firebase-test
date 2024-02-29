@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "zatsuzatsu-gcp-function-test"
+  }
+}
