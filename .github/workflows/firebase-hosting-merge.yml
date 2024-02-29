@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+      - uses: actions/typescript-action@v1
       - run: pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
